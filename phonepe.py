@@ -28,7 +28,7 @@ from PIL import Image
 mydb=mysql.connector.connect(
                 host='localhost',
                 user='root',
-                password='Abhi@100982',
+                password='----------',
                 database ='Phonepe_data'
                 )
 mycursor=mydb.cursor()
@@ -365,7 +365,7 @@ def top_chart_transaction_amount(table_name):
     mydb=mysql.connector.connect(
                     host='localhost',
                     user='root',
-                    password='Abhi@100982',
+                    password='----------',
                     database ='Phonepe_data'
                     )
     mycursor=mydb.cursor()
@@ -420,7 +420,7 @@ def top_chart_transaction_count(table_name):
     mydb=mysql.connector.connect(
                     host='localhost',
                     user='root',
-                    password='Abhi@100982',
+                    password='----------',
                     database ='Phonepe_data'
                     )
     mycursor=mydb.cursor()
@@ -472,7 +472,7 @@ def top_chart_registered_user(table_name, state):
     mydb=mysql.connector.connect(
                     host='localhost',
                     user='root',
-                    password='Abhi@100982',
+                    password='----------',
                     database ='Phonepe_data'
                     )
     mycursor=mydb.cursor()
@@ -524,7 +524,7 @@ def top_chart_appopens(table_name, state):
     mydb=mysql.connector.connect(
                     host='localhost',
                     user='root',
-                    password='Abhi@100982',
+                    password='----------',
                     database ='Phonepe_data'
                     )
     mycursor=mydb.cursor()
@@ -576,7 +576,7 @@ def top_chart_registered_users(table_name):
     mydb=mysql.connector.connect(
                     host='localhost',
                     user='root',
-                    password='Abhi@100982',
+                    password='----------',
                     database ='Phonepe_data'
                     )
     mycursor=mydb.cursor()
@@ -628,7 +628,7 @@ def top_chart_brand_user(table_name, state):
     mydb=mysql.connector.connect(
                     host='localhost',
                     user='root',
-                    password='Abhi@100982',
+                    password='----------',
                     database ='Phonepe_data'
                     )
     mycursor=mydb.cursor()
@@ -900,7 +900,7 @@ elif select == "TOP CHARTS":
         mydb=mysql.connector.connect(
                         host='localhost',
                         user='root',
-                        password='Abhi@100982',
+                        password='----------',
                         database ='Phonepe_data'
                         )
         mycursor=mydb.cursor()
